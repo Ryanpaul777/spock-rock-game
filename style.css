@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap'); */
 
 html {
   box-sizing: border-box;
@@ -96,11 +93,12 @@ h2 {
 @media screen and (max-width: 600px) {
   .game-container {
     width: 95%;
-    height: 580px;
+    /* height: 580px; */
+    height: 750px;
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .player-container {
@@ -120,11 +118,12 @@ h2 {
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
   .game-container {
-    height: 550px;
+    /* height: 550px; */
+    height: 750px;
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .player-container {
